@@ -14,6 +14,10 @@
 		4DE7C5031AC93B1400DF1550 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE7C5021AC93B1400DF1550 /* Images.xcassets */; };
 		4DE7C5061AC93B1400DF1550 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE7C5041AC93B1400DF1550 /* LaunchScreen.xib */; };
 		4DE7C5121AC93B1400DF1550 /* YKLoopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE7C5111AC93B1400DF1550 /* YKLoopViewTests.m */; };
+		4DE7C5201AC9732B00DF1550 /* YKLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE7C51F1AC9732B00DF1550 /* YKLoopView.m */; };
+		4DE7C5281AC98B0400DF1550 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE7C5251AC98B0400DF1550 /* 1.jpg */; };
+		4DE7C5291AC98B0400DF1550 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE7C5261AC98B0400DF1550 /* 2.jpg */; };
+		4DE7C52A1AC98B0400DF1550 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE7C5271AC98B0400DF1550 /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		4DE7C50B1AC93B1400DF1550 /* YKLoopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKLoopViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE7C5101AC93B1400DF1550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DE7C5111AC93B1400DF1550 /* YKLoopViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKLoopViewTests.m; sourceTree = "<group>"; };
+		4DE7C51E1AC9732B00DF1550 /* YKLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKLoopView.h; sourceTree = "<group>"; };
+		4DE7C51F1AC9732B00DF1550 /* YKLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKLoopView.m; sourceTree = "<group>"; };
+		4DE7C5251AC98B0400DF1550 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		4DE7C5261AC98B0400DF1550 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		4DE7C5271AC98B0400DF1550 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 		4DE7C4F41AC93B1400DF1550 /* YKLoopView */ = {
 			isa = PBXGroup;
 			children = (
+				4DE7C5241AC9734F00DF1550 /* YKLoopView */,
 				4DE7C4F91AC93B1400DF1550 /* AppDelegate.h */,
 				4DE7C4FA1AC93B1400DF1550 /* AppDelegate.m */,
 				4DE7C4FC1AC93B1400DF1550 /* ViewController.h */,
@@ -96,6 +106,9 @@
 		4DE7C4F51AC93B1400DF1550 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4DE7C5251AC98B0400DF1550 /* 1.jpg */,
+				4DE7C5261AC98B0400DF1550 /* 2.jpg */,
+				4DE7C5271AC98B0400DF1550 /* 3.jpg */,
 				4DE7C4F61AC93B1400DF1550 /* Info.plist */,
 				4DE7C4F71AC93B1400DF1550 /* main.m */,
 			);
@@ -117,6 +130,15 @@
 				4DE7C5101AC93B1400DF1550 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DE7C5241AC9734F00DF1550 /* YKLoopView */ = {
+			isa = PBXGroup;
+			children = (
+				4DE7C51E1AC9732B00DF1550 /* YKLoopView.h */,
+				4DE7C51F1AC9732B00DF1550 /* YKLoopView.m */,
+			);
+			name = YKLoopView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE7C5011AC93B1400DF1550 /* Main.storyboard in Resources */,
+				4DE7C5281AC98B0400DF1550 /* 1.jpg in Resources */,
+				4DE7C5291AC98B0400DF1550 /* 2.jpg in Resources */,
+				4DE7C52A1AC98B0400DF1550 /* 3.jpg in Resources */,
 				4DE7C5061AC93B1400DF1550 /* LaunchScreen.xib in Resources */,
 				4DE7C5031AC93B1400DF1550 /* Images.xcassets in Resources */,
 			);
@@ -219,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE7C5201AC9732B00DF1550 /* YKLoopView.m in Sources */,
 				4DE7C4FE1AC93B1400DF1550 /* ViewController.m in Sources */,
 				4DE7C4FB1AC93B1400DF1550 /* AppDelegate.m in Sources */,
 				4DE7C4F81AC93B1400DF1550 /* main.m in Sources */,
@@ -344,6 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YKLoopView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YKLoopView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +440,7 @@
 				4DE7C5171AC93B1400DF1550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DE7C5181AC93B1400DF1550 /* Build configuration list for PBXNativeTarget "YKLoopViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +449,7 @@
 				4DE7C51A1AC93B1400DF1550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
